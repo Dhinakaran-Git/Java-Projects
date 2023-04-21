@@ -1,0 +1,8 @@
+-------------------------------------------------------------------------------
+Test set: com.application.lms.serviceImpl.IssueBookServiceImplTest
+-------------------------------------------------------------------------------
+Tests run: 1, Failures: 0, Errors: 1, Skipped: 0, Time elapsed: 0.068 s <<< FAILURE! - in com.application.lms.serviceImpl.IssueBookServiceImplTest
+testGetIssueBooks  Time elapsed: 0.026 s  <<< ERROR!
+java.lang.NullPointerException: Cannot invoke "com.application.lms.repo.IssueBookRepo.findAll()" because "this.issueBookRepo" is null
+	at com.application.lms.serviceImpl.IssueBookServiceImplTest.testGetIssueBooks(IssueBookServiceImplTest.java:50)
+

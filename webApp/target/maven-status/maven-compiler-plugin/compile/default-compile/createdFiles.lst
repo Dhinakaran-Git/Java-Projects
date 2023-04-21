@@ -1,0 +1,14 @@
+com/mycompany/webapp1/AddMember.class
+com/mycompany/webapp1/jpaModel/Member.class
+com/mycompany/webapp1/ViewMember.class
+com/mycompany/webapp1/UserProfile.class
+com/mycompany/webapp1/dao/jpa/PersistenceDatabase.class
+com/mycompany/webapp1/ViewProfileServlet.class
+com/mycompany/webapp1/dao/jpa/MemberDAOJpaImpl.class
+com/mycompany/webapp1/jpaModel/IssueBooks.class
+com/mycompany/webapp1/jpaModel/Author.class
+com/mycompany/webapp1/jpaModel/Books.class
+com/mycompany/webapp1/dao/jpa/BookDAOJpaImpl.class
+com/mycompany/webapp1/Logout.class
+com/mycompany/webapp1/ViewMembers.class
+com/mycompany/webapp1/jpaModel/BookCopies.class

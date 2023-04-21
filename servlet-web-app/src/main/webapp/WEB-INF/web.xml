@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<web-app version="2.4" xmlns="http://java.sun.com/xml/ns/j2ee" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="https://jakarta.ee/xml/ns/jakartaee https://jakarta.ee/xml/ns/jakartaee/web-app_5_0.xsd">
+    <listener>
+        <listener-class>in.bassure.ngs.skilling.batch8.web1.ApplicationListener</listener-class>
+    </listener>
+    <!--    <listener>
+        <listener-class>in.bassure.ngs.skilling.batch8.web1.ApplicationDataSourceListener</listener-class>
+    </listener>-->
+    <context-param>
+        <param-name>JDBC_URL</param-name>
+        <param-value>jdbc:mysql://bassure.in/batch7</param-value>
+    </context-param>
+    <servlet>
+        <servlet-name>Hello</servlet-name>
+        <servlet-class>in.bassure.ngs.skilling.batch8.web1.HelloServlet</servlet-class>
+        <init-param>
+            <param-name>keyOne</param-name>
+            <param-value>KeyOneValue</param-value>
+        </init-param>
+        <init-param>
+            <param-name>keyTwo</param-name>
+            <param-value>KeyTwoValue</param-value>
+        </init-param>
+    </servlet>
+    <servlet>
+        <servlet-name>Customers View</servlet-name>
+        <servlet-class>in.bassure.ngs.skilling.batch8.web1.CustomersServlet_V1</servlet-class>
+    </servlet>
+    <servlet>
+        <servlet-name>/profile</servlet-name>
+        <servlet-class>in.bassure.servlet.web1.ViewProfileServlet</servlet-class>
+    </servlet>
+    <servlet-mapping>
+        <servlet-name>Hello</servlet-name>
+        <url-pattern>/hi</url-pattern>
+    </servlet-mapping>
+    <servlet-mapping>
+        <servlet-name>Customers View</servlet-name>
+        <url-pattern>/viewCustomers</url-pattern>
+    </servlet-mapping>
+    <servlet-mapping>
+        <servlet-name>/profile</servlet-name>
+        <url-pattern>/ViewProfileServlet</url-pattern>
+    </servlet-mapping>
+</web-app>

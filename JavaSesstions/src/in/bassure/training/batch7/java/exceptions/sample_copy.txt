@@ -1,0 +1,4 @@
+Exception Handling in Java helps to create Robust Applications.
+That's why enterprises likes it.
+
+Debugging becomes easier too.

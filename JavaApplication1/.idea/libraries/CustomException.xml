@@ -1,0 +1,9 @@
+<component name="libraryTable">
+  <library name="CustomException">
+    <CLASSES>
+      <root url="jar://$PROJECT_DIR$/src/javaapplication1/CustomException.zip!/" />
+    </CLASSES>
+    <JAVADOC />
+    <SOURCES />
+  </library>
+</component>

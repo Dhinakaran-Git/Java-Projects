@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<beans xmlns="http://www.springframework.org/schema/beans"
+       xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+       xsi:schemaLocation="http://www.springframework.org/schema/beans
+        https://www.springframework.org/schema/beans/spring-beans.xsd">
+    
+    <bean id = "b1" class = "com.mycompany.spring.app.practices.Employee" />
+    
+    <bean id="carA" class="com.mycompany.spring.app.practices.CarFactory" factory-method="getCar"/>
+    
+    <bean id="d1" class="com.mycompany.spring.app.practices.Department">
+        <property name="id" value="1"/>
+        <property name="name" value="Moosa"/>
+    </bean>
+    
+    
+    <bean id = "b2" class = "com.mycompany.spring.app.practices.Employee" >
+        <constructor-arg index="0" value="25" />
+        <constructor-arg index="1" value="Rod Johnson"/>
+        <constructor-arg index="2" value="johnson@mail.com"/>
+        <constructor-arg index="3">
+            <bean class="com.mycompany.spring.app.practices.Department">
+                <property name="id" value="12"/>
+                <property name="name" value="deva"/>
+            </bean>
+        </constructor-arg>
+    </bean>
+    
+    <bean id = "NewEmployee" class = "com.mycompany.spring.app.practices.Employee" >
+        <constructor-arg index="0" value="25" />
+        <constructor-arg index="1" value="Rod Johnson"/>
+        <constructor-arg index="2" value="johnson@mail.com"/>
+        <constructor-arg index="3" ref="d1" />
+     </bean>
+</beans>

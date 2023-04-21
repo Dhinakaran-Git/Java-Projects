@@ -1,0 +1,16 @@
+spring:
+  application:
+    name: learning-spring-boot
+  config:
+    import: optional:configserver:http://localhost:8888 
+  mvc:
+    view:
+      prefix: /WEB-INF/pages/
+      suffix: .jsp    
+  datasource:
+    url: jdbc:mysql://bassure.in/dhinakaran_db
+    username: dhinakaran
+    password: bassure@33
+    hikari:
+      maximum-pool-size: 2
+    

@@ -1,0 +1,7 @@
+com/mycompany/spring/app/practices/scope/JdbcConnection.class
+com/mycompany/spring/app/practices/Department.class
+com/mycompany/spring/app/SpringApp.class
+com/mycompany/spring/app/practices/Car.class
+com/mycompany/spring/app/practices/CarFactory.class
+com/mycompany/spring/app/practices/Employee.class
+com/mycompany/spring/app/practices/scope/PersonDAO.class

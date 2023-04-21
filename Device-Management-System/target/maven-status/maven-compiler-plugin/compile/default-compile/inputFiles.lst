@@ -1,0 +1,10 @@
+/home/bas200137/NetBeansProjects/Device-Management-System/src/main/java/com/amazon/project/device/management/system/entity/Device.java
+/home/bas200137/NetBeansProjects/Device-Management-System/src/main/java/com/amazon/project/device/management/system/DeviceManagementSystem.java
+/home/bas200137/NetBeansProjects/Device-Management-System/src/main/java/com/amazon/project/device/management/system/repositroy/DeviceStatusRepo.java
+/home/bas200137/NetBeansProjects/Device-Management-System/src/main/java/com/amazon/project/device/management/system/entity/DeviceStatus.java
+/home/bas200137/NetBeansProjects/Device-Management-System/src/main/java/com/amazon/project/device/management/system/serviceimpl/DeviceServiceImpl.java
+/home/bas200137/NetBeansProjects/Device-Management-System/src/main/java/com/amazon/project/device/management/system/controller/UserDeviceController.java
+/home/bas200137/NetBeansProjects/Device-Management-System/src/main/java/com/amazon/project/device/management/system/repositroy/UserRepo.java
+/home/bas200137/NetBeansProjects/Device-Management-System/src/main/java/com/amazon/project/device/management/system/repositroy/DeviceRepo.java
+/home/bas200137/NetBeansProjects/Device-Management-System/src/main/java/com/amazon/project/device/management/system/entity/User.java
+/home/bas200137/NetBeansProjects/Device-Management-System/src/main/java/com/amazon/project/device/management/system/serviceimpl/UserServiceImpl.java

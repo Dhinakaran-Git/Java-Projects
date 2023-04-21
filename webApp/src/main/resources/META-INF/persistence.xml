@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<persistence version="2.1" xmlns="http://xmlns.jcp.org/xml/ns/persistence" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://xmlns.jcp.org/xml/ns/persistence              http://xmlns.jcp.org/xml/ns/persistence/persistence_2_1.xsd">
+  <persistence-unit name="lms" transaction-type="RESOURCE_LOCAL">
+    <provider>org.hibernate.jpa.HibernatePersistenceProvider</provider>
+    
+    <!--we want to set location-->
+    <class>com.mycompany.webapp1.jpaModel.BookCopies</class>
+    <class>com.mycompany.webapp1.jpaModel.Author</class>
+    <class>com.mycompany.webapp1.jpaModel.IssueBooks</class>
+    <class>com.mycompany.webapp1.jpaModel.Books</class>
+    <class>com.mycompany.webapp1.jpaModel.Member</class>
+    
+    <exclude-unlisted-classes>true</exclude-unlisted-classes>
+    <properties>
+      <property name="jakarta.persistence.jdbc.driver" value="com.mysql.cj.jdbc.Driver"/>
+      <property name="jakarta.persistence.jdbc.url" value="jdbc:mysql://bassure.in:3306/dhinakaran_db"/>
+      <property name="jakarta.persistence.jdbc.user" value="dhinakaran"/>
+      <property name="jakarta.persistence.jdbc.password" value="bassure@33"/>
+      <property name="hibernate.show_sql" value="true"/>
+      <!--            <property name="hibernate.hbm2ddl.auto"
+            value="update" />-->
+    </properties>
+  </persistence-unit>
+</persistence>
